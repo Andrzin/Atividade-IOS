@@ -58,9 +58,9 @@ retornArray([5,15,25,35,45,55])
 //atividade5
 let numeros: Array<Int> = [5,15,25,35,45,55,65,75,85]
 func multiplicacaoArray(_ quant: Int){
-  var newArray: Array<Int> = []
+  var novaArray: Array<Int> = []
   for item in numeros {
-    newArray.append(item * quant)
+    novaArray.append(item * quant)
   }
 
   print(newArray)
