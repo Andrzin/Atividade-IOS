@@ -63,7 +63,7 @@ func multiplicacaoArray(_ quant: Int){
     novaArray.append(item * quant)
   }
 
-  print(newArray)
+  print(novaArray)
 }
 multiplicacaoArray(5)
 //atividade6
